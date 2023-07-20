@@ -140,3 +140,8 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
+
+// Use Express.js to serve the index.html file.
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/index.html');
+});
