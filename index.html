@@ -811,4 +811,30 @@
     <script src="js/script.js"></script>
 </body>
 
+
+
+<div>
+    <h1>Button Click Counter</h1>
+  <button id="incrementButton">Click Me!</button>
+  <p id="count">0</p>
+  <script>
+    const incrementButton = document.getElementById('incrementButton');
+    const countElement = document.getElementById('count');
+
+    incrementButton.addEventListener('click', async () => {
+      const response = await fetch('/increment', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+
+      const data = await response.json();
+      countElement.textContent = data.count;
+    });
+  </script>
+</div>
+
+
+
 </html>
