@@ -261,7 +261,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../img/project-2a.jpg) center center no-repeat;
+    background: url(../img/Infrastructure-Design.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -271,7 +271,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../img/project-3a.jpg) center center no-repeat;
+    background: url(../img/Infrastructuredeploymentandmonitoring.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -281,7 +281,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../img/project-4.jpg) center center no-repeat;
+    background: url(../img/Serverlessdeploymentandmonitoring.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.service-item .bg-icon-4 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/Securing-your-architecture.jpg) center center no-repeat;
     background-size: cover;
 }
 
